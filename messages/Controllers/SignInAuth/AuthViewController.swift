@@ -26,7 +26,7 @@ class AuthViewController: UIViewController {
     let emailLabel = UILabel(text: "Sign up with")
     let registeredLabel = UILabel(text: "Already on board?")
     
-    let logoImageView = UIImageView(image: #imageLiteral(resourceName: "messageLogo.png"), contentMode: .scaleAspectFit)
+    let logoImageView = UIImageView(image: #imageLiteral(resourceName: "messageLogo"), contentMode: .scaleAspectFit)
     
     override func viewDidLoad() {
         super.viewDidLoad()
